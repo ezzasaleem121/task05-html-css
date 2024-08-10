@@ -1,0 +1,361 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(123, 181, 185);
+}
+/*nav*/
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#logo{
+    width: 120px;
+    height: 120px;
+}
+.input{
+    display: flex;
+}
+input{
+    width: 450px;
+    height: 40px ;
+}
+i{
+    background-color: rgb(130, 16, 158);
+    color: #fff;
+    padding: 9px;
+    margin-left: -30px;
+}
+.cart{
+    display: flex;
+    padding: 0px 50px;
+    width: 30px;
+    height: 30px;
+}
+.cart img{
+    padding-left: 10px;
+} 
+.background-img{
+    background-image: linear-gradient(rgba(0,0,0,0.43),(rgba(0,0,0,438))),url(./imgs/background\ 2.png);
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.background-img h2{
+    z-index: 2;
+    text-align: center;
+    font-size: 28px;
+}
+/*mbl*/
+.mob-phone{
+    margin-top: 60px;
+    margin-bottom: 10pxs;
+    padding: 10px 20px;
+}
+.mob-phone{
+    display: grid;
+    grid-template-columns: 14% 14% 14% 14%;
+    justify-content: space-around;
+}
+.mob-phone div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #fafafa;
+    border: 1px solid gainsboro;
+    text-align: center;
+    margin: 10px 0;
+}
+.mob-phone div img{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: transparent;
+}
+.mob-phone span p{
+    padding: 3px;
+    font-size: small;
+}
+.mob-phone span p:first-child{
+    font-weight: bold;
+}
+/*laptop*/
+#laptop-heading{
+    margin-top: 60px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+.laptops{
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    justify-content: space-around;
+}
+.laptops div{
+    align-items: center;
+    background-color: aliceblue;
+    border: 1px solid black;
+    text-align: center;
+}
+.laptops div img{
+    height: 160px;
+    width: 180px;
+    border-radius: 5px;
+    margin: 15px;
+    margin-bottom: 5px;
+    background-color: transparent;
+}
+.notify{
+    background-color: black;
+    color: #fff;
+    width: 90px;
+    height: 40px;
+    padding: 0px;
+    margin-top: 10px;
+    box-shadow: rgba(0,0,0,0.43) 0px 5px 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.notify p{
+    padding-top: 10px;
+    font-size: small;
+}
+.laptops h4{
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+/*samrt watches*/
+#watches-heading{
+    margin-top: 80px;
+    margin-left: 10px;
+    padding: 10px 20px;
+}
+.smart-watches{
+    display: grid;
+    grid-template-columns: 40px 40px;
+    justify-content: space-around;
+}
+.smart-watches div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(72, 73, 73);
+    width: 400px;
+    height: 200px;
+    margin-bottom: 20px;
+    padding: 10px 50px;
+    box-shadow: rgba(0,0,0,0.43) 0px 5px 10px;
+}
+.smart-watches div img{
+    width: 200px;
+    height: 190px;
+}
+.smart-watches p{
+    font-weight: bold;
+    font-size: 18px;
+    color: #91b5d3;
+}
+/*footer*/
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    background-color: #91b5d3;
+}
+footer img{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+.all-right{
+    text-align: center;
+    background-color: #91b5d3;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #63727e;
+}
+/* small srn*/
+@media(max-width:100px){
+    nav{
+        height: 80px;
+    }
+    #logo{
+        width: 100px;
+        height: 100px;
+    }
+    input{
+        width: 250px;
+        height: 30px;
+    }
+    i{
+        margin-left: -20px;
+        padding: 7px;
+    }
+    .cart{
+        padding: 0px 20px;
+        height: 20px;
+        width: 20px;
+    }
+    .cart img{
+        padding-left: 7px;
+    }
+}
+.background-img h2{
+    font-size: 18px;
+}
+.background-img img{
+    width: 60%;
+}
+/*mbl*/
+
+/*mbl*/
+@media(max-width:400px){
+nav{
+    height: 60px;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+}
+input{
+    width: 170px;
+    height: 25px;
+}
+i{
+    background-color: transparent;
+    color: black;
+    padding-top: 2px;
+    margin-left: -28px;
+}
+.cart{
+    padding: o 15px;
+    width: 15px;
+    height: 15px;
+}
+.cart img{
+    padding-left: 5px;sss
+}
+}
+/*home*/
+.home{
+    display: grid;
+    grid-template-columns: 20% 75%;
+    margin: 30px 0;
+    justify-content: space-evenly;
+}
+.categories{
+    background-color: aliceblue;
+    border: 1px solid wheat;
+    padding: 15px;
+}
+.categories h2{
+    background-color: aquamarine;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+.categories li{
+    list-style-type: none;
+    padding: 8px 0;
+    padding-left: 20px;
+}
+.caegories li a{
+    text-decoration: none;
+    color: black;
+}
+.background-img{
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0))url(./imgs/background\ 2.png);
+    background-size: cover;
+}
+.background-img h2{
+    font-size: 10px;
+}
+.background-img{
+    width: 40%;
+}
+/*mbl*/
+#mbl-heading{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding: 0px 20px;
+    font-size: 2.5vh;
+}
+.mbl{
+    grid-template-columns: 50% 50%;
+    justify-content: space-around;
+}
+
+#laptop-heading{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding: 20px 20px;
+    font-size: 2.5vh;
+}
+
+.laptops{
+    display: grid;
+    grid-template-columns: 80px;
+    justify-content: space-around;
+}
+.laptops .notify{
+    width: 80px;
+    height: 20px;
+}
+.laptops .notify p{
+    padding-top: 3px;
+    font-size: 2vh;
+}
+.laptops h4{
+    font-size: 2vh;
+    padding-top: 3px;
+    padding-bottom: 10pxs;
+}
+#watches-heading{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding: 20px 20px;
+    font-size: 2.5vh;
+}
+.smart-watches{
+    display: grid;
+    grid-template-columns: 80px;
+    justify-content: space-around;
+}
+.smart-watches div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 250px;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+}
+.smart-watches div img{
+    width: 150px;
+    height: 150px;
+}
+.smart-watches p{
+    font-size: 2vh;
+}
+footer{
+    margin-top: 50px;
+}
+footer img{
+    width: 15px;
+    height: 15px;
+    padding: 8px;
+}
+.all-right{
+    font-size: 2vh;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
